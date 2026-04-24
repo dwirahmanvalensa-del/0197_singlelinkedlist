@@ -8,14 +8,20 @@ public:
     Node *next;
 };
 
-class LinkedList
+class LinkedList 
 {
     Node *START;
 
-public:
+    public:
     LinkedList()
     {
         START = NULL;
     }
 
-    
+    void addNode()
+    {
+        int nim;
+        cout << "\nMasukkan Nomor Mahasiswa: ";
+        cin >> nim;
+
+        
